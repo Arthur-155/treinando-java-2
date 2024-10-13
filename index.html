@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section class="faq-container">
+        <div class="faq-content">
+            <div class="imagem-container">
+                <img src="./src/image/imagem.png" alt="imagem-do-faq" class="faq-image">
+            </div>
+            <div class="faq-texts">
+                <header class="faq-header">
+                    <h1>FAQ</h1>
+                </header>
+                <article class="faq-item">
+                    <span class="faq-question" onclick="toggleAnswer(this)">
+                        <strong>Lorem ipsum dolor sit amet, consectetur?</strong>
+                        <span class="arrow">▼</span>
+                    </span>
+                    <p class="faq-descricao esconder">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                        quis egestas ex, a elementum est. Mauris auctor nunc quis erat.</p>
+                    <hr>
+                </article>
+                <article class="faq-item">
+                    <span class="faq-question" onclick="toggleAnswer(this)">
+                        <strong>Lorem ipsum dolor sit amet?</strong>
+                        <span class="arrow">▼</span>
+                    </span>
+                    <p class="faq-descricao esconder">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                        quis egestas ex, a elementum est. Mauris auctor nunc quis erat.</p>
+                    <hr>
+                </article>
+                <article class="faq-item">
+                    <span class="faq-question" onclick="toggleAnswer(this)">
+                        <strong>Lorem ipsum dolor sit?</strong>
+                        <span class="arrow">▼</span>
+                    </span>
+                    <p class="faq-descricao esconder">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                        quis egestas ex, a elementum est. Mauris auctor nunc quis erat.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
